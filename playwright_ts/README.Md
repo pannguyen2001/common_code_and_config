@@ -49,6 +49,8 @@ pnpm exec playwright show-report
 ## 9. Install allure report for Playwright
 - Note that allure reports need java jdk and allure cli. Please install java jsk by openjdk first
 - Download openjdk and set env:
+https://jdk.java.net/archive/ (archived version, not used, but if you want, can install)
+Newest version: https://jdk.java.net/26/ (Accessed date: 2026-05-18)
 ```
 JAVA_HOME : C:\Users\ASUS\Downloads\openjdk-25.0.1_windows-x64_bin\jdk-25.0.1
 JAVA: C:\Users\ASUS\Downloads\openjdk-25.0.1_windows-x64_bin\jdk-25.0.1\bin
