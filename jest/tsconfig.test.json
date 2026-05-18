@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "types": ["jest", "@testing-library/jest-dom"],
+    "isolatedModules": true,
+    "baseUrl": "src", // keep consistent with tsconfig.json
+    "paths": {
+      "@/*": ["*"],
+      "@configs": ["configs/index"],
+      "@configs/*": ["configs/*"],
+      "@constants": ["constants/index"],
+      "@constants/*": ["constants/*"],
+      "@interfaces": ["interfaces/index"],
+			"@interfaces/*": ["interfaces/*"],
+      "@utils": ["utils/index"],
+      "@utils/*": ["utils/*"]
+    }
+  },
+  "include": [
+    "**/*.test.tsx",
+    "**/*.test.ts",
+    "./jest.config.ts",
+    "tests",
+    "src"
+  ]
+}

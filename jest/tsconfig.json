@@ -1,0 +1,45 @@
+{
+	"compilerOptions": {
+		"resolveJsonModule": true,
+		"target": "ESNEXT",
+		"module": "commonjs",
+		"moduleResolution": "node",
+        "ignoreDeprecations": "6.0",
+		"outDir": "./",
+		"rootDir": "./",
+		"baseUrl": "src",
+		"paths": {
+			"@/*": ["*"],
+			"@configs": ["configs/index"],
+			"@configs/*": ["configs/*"],
+
+			"@constants": ["constants/index"],
+			"@constants/*": ["constants/*"],
+
+			"@interfaces": ["interfaces/index"],
+			"@interfaces/*": ["interfaces/*"],
+
+			"@utils": ["utils/index"],
+			"@utils/*": ["utils/*"]
+
+		},
+		"noEmit": true,
+		"strict": true,
+		"typeRoots": [
+			"./node_modules/@types"
+		],
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"isolatedModules": true
+	},
+	"exclude": [
+		"node_modules",
+		".build",
+		"src/public"
+	],
+	"ts-node": {
+        "swc": true
+      }
+}
