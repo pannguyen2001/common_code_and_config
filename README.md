@@ -10,3 +10,11 @@ This is root config for all projects. If have any update, please update in both 
 ## Vitest
 
 ## Python
+
+## Pytest
+
+## Playwright
+
+## Selenium
+
+## Cypress
