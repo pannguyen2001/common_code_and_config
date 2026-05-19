@@ -35,6 +35,8 @@ pnpm i -D ts-node
 npx playwright test
 or:
 pnpm exec playwright test
+or (if configured in package.json):
+pnpm (run) test:e2e
 with UI mode:
 pnpm exec playwright test --ui
 ```
