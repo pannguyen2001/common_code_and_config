@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler", // ✅ or "node16"/"nodenext"
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "types": ["vite/client"],       // ✅ gives types for Vite env
+    "baseUrl": ".",                // for aliases
+    "paths": {
+      "@/assets/*": ["src/assets/*"],
+      "@/components/*": ["src/components/*"],
+      "@/configs/*": ["src/configs/*"],
+      "@/data/*": ["src/data/*"],
+      "@/helpers/*": ["src/helpers/*"],
+      "@/types/*": ["src/types/*"],
+      "@/zustand/*": ["src/zustand/*"],
+      "@/pages/*": ["src/pages/*"],
+      "@/routes/*": ["src/routes/*"],
+      "@/utils/*": ["src/utils/*"]
+    }
+  }
+}
