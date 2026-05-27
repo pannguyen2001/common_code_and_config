@@ -43,3 +43,6 @@ This is root config for all projects. If have any update, please update in both 
 - common config: constant, .env, datetime format, folder creation and deletion, etc
 - app connection, db connection
 - emal, slack/discord connection
+
+
+* Each language needs to have 1 folder/workspace for learning, lab and doing component exercises, 1 for storage common and n for projects
