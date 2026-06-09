@@ -23,14 +23,14 @@ export default defineConfig([
       "import/resolver": {
         alias: {
           map: [
-            ["@assets", "./src/assets"],
-            ["@components", "./src/components"],
-            ["@configs", "./src/configs"],
-            ["@data", "./src/data"],
-            ["@helpers", "./src/helpers"],
-            ["@pages", "./src/pages"],
-            ["@routes", "./src/routes"],
-            ["@utils", "./src/utils"],
+            ["@/assets", "./src/assets"],
+            ["@/components", "./src/components"],
+            ["@/configs", "./src/configs"],
+            ["@/data", "./src/data"],
+            ["@/helpers", "./src/helpers"],
+            ["@/pages", "./src/pages"],
+            ["@/routes", "./src/routes"],
+            ["@/utils", "./src/utils"],
           ],
           extensions: [".ts", ".tsx", ".js", ".jsx", ".json"],
         },
