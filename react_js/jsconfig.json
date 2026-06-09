@@ -2,15 +2,20 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@assets/*": ["src/assets/*"],
-      "@components/*": ["src/components/*"],
-      "@configs/*": ["src/configs/*"],
-      "@data/*": ["src/data/*"],
-      "@helpers/*": ["src/helpers/*"],
-      "@pages/*": ["src/pages/*"],
-      "@routes/*": ["src/routes/*"],
-      "@services/*": ["src/services/*"],
-      "@utils/*": ["src/utils/*"]
+      "@/apis/*": ["src/apis/*"],
+      "@/assets/*": ["src/assets/*"],
+      "@/components/*": ["src/components/*"],
+      "@/configs/*": ["src/configs/*"],
+      "@/data/*": ["src/data/*"],
+      "@/helpers/*": ["src/helpers/*"],
+      "@/hooks/*": ["src/hooks/*"],
+      "@/layout/*": ["src/layouts/*"],
+      "@/pages/*": ["src/pages/*"],
+      "@/routes/*": ["src/routes/*"],
+      "@/services/*": ["src/services/*"],
+      "@/tests/*": ["src/tests/*"],
+      "@/utils/*": ["src/utils/*"],
+      "@/zustand/*": ["src/zustand/*"]
     }
   },
   "include": ["src/**/*"]

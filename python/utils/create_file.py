@@ -1,10 +1,16 @@
-import os
 from pathlib import Path
 
 
-def create_file(folder_path: str = "", file_name: str = ""):
-    """Create file or folder if not exist"""
-    file_path = os.path.join(folder_path, file_name)
-    file_path = Path(file_path)
-    file_path.parent.mkdir(exist_ok=True, parents=True)
-    return file_path
+def create_file(
+    folder_path: str = "./",
+    file_name: str = "file.txt",
+) -> str:
+    """Create file if it does not exist."""
+
+    file_path = Path(folder_path) / file_name
+
+    file_path.parent.mkdir(parents=True, exist_ok=True)
+
+    file_path.touch(exist_ok=True)
+
+    return str(file_path)
